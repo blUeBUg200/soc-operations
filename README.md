@@ -12,11 +12,11 @@
 
 [Threat Modeling](https://redcanary.com/blog/threat-modeling/)
 
-[Threat Emulation](https://mad-certified.mitre-engenuity.org/group/359563)
-
 [DeTT&CT Framework](https://github.com/rabobank-cdc/DeTTECT)
 
 [Threat Intelligence](https://mad-certified.mitre-engenuity.org/group/283476)
+
+[Threat Emulation](https://mad-certified.mitre-engenuity.org/group/359563)
 
 [Crown Jewel Analysis](https://www.mitre.org/publications/systems-engineering-guide/enterprise-engineering/systems-engineering-for-mission-assurance/crown-jewels-analysis)
 
