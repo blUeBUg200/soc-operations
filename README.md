@@ -2,7 +2,7 @@
 
 SOC Functional Model (SFM) helps an organization to plan & prepare setting up an new SOC or to asses your exisitng SOC capabilities and identify the areas to focus.
 
-Requesting the audience to have the basic understanding of below topics before jumping into the described process for better understanding,
+Requesting the audience to have basic understanding of below topics before jumping into the described process for better understanding,
 
 [Neo4j](https://neo4j.com/)
 
@@ -25,3 +25,11 @@ Requesting the audience to have the basic understanding of below topics before j
 [Crown Jewel Analysis](https://www.mitre.org/publications/systems-engineering-guide/enterprise-engineering/systems-engineering-for-mission-assurance/crown-jewels-analysis)
 
 [Risk Remediation Analysis](https://www.mitre.org/publications/systems-engineering-guide/enterprise-engineering/systems-engineering-for-mission-assurance/cyber-risk-remediation-analysis)
+
+# The SFM Model
+
+SFM consists of 5 stages to build a new SOC and 4 stages to asses your exisiting SOC.
+
+
+<img width="1192" alt="SFM Stages" src="https://user-images.githubusercontent.com/86832373/175633961-917f4da8-5f33-431e-833c-a76ebf31a1de.png">
+
