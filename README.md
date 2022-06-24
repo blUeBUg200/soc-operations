@@ -1,1 +1,1 @@
-# soc-operations
+# SOC - Functional Model
