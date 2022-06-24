@@ -1,1 +1,1 @@
-# SOC - Functional Model
+# SOC - FUNCTIONAL MODEL
