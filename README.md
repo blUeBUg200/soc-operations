@@ -1,4 +1,8 @@
-# SOC - FUNCTIONAL MODEL
+# Security Operation Centre(SOC) - FUNCTIONAL MODEL
+
+SOC Functional Model (SFM) helps an organization to plan & prepare setting up an new SOC or to asses your exisitng SOC capabilities and identify the areas to focus.
+
+Requesting the audience to have the basic understanding of below topics before jumping into the described process for better understanding,
 
 [Neo4j](https://neo4j.com/)
 
