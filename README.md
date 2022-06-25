@@ -93,8 +93,9 @@ The combination of TTP by both threat groups is compiled with the help of MITRE 
 
 ### Age:II.M3 - Risk Remediation Analysis
 
-During this stage we will analyze the list of security controls which will be helpful in defending against the adversary TTPs(in our case APT29 and APT30). Upon research, I found MITRE Engenuity [security-stack-mapping](https://github.com/center-for-threat-informed-defense/security-stack-mappings) for Azure and AWS. 
-> This is still a research topic for me wherein I am looking for something more similar to Engenuity project for on-premise IT environment. If you know any references, kindly share your inputs through email(kaviarasan1195@gmail.com)
+During this stage we will analyze the list of security controls which will be helpful in defending against the adversary TTPs(in our case APT29 and APT30). This is a hands-on excercise to understand the detection, deny, degarde and deceive capabilities of the security tools and map them to MITRE matrix as a common reference playbook.
+
+> Upon research, I found MITRE Engenuity [security-stack-mapping](https://github.com/center-for-threat-informed-defense/security-stack-mappings) for Azure and AWS.This is still a research topic for me wherein I am looking for something more similar to Engenuity project for on-premise IT environment. If you know any references, kindly share your inputs through email(kaviarasan1195@gmail.com)
 
 ## Age III
 During this stage, more proactive actions are conducted which helps SOC to respond faster to cyber threats.
@@ -128,6 +129,9 @@ The process of threat hunting is briefed in one of writings earlier. Follow this
 Threat Emulation will help organization to understand their capability to detect when an threat profiled adversary in conductiong their operation against the environment. The mimicked Techniques need to be emulated and the security usecase alerting efficiency need to be validated post emulation activity.
 
 ## SOC Iteration Model
+
+As mentioned in the introuduction, the stages are iterative process and keeps changing as the organization mission changes, priority changes. 
+Below picture shows the repeat loop of the stages which will be iterated over a period of time.
 
 <img width="914" alt="Iteration Model" src="https://user-images.githubusercontent.com/86832373/175775983-f9b6ee18-02db-44a7-b22a-44fd7b65410a.png">
 
