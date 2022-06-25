@@ -61,8 +61,6 @@ This stage is about understanding the environment, business and assets which are
     - Identify relevant assets which drive the mission's success
 - Identify Mission Dependencies
     - Identify dependencies for the mission critical assets
-- Prepare for Threat Profiling
-    - Plan for resources and references for creating a threat profile
  
 ### Age:I.M2 - Log Quality Analysis
 The integrated device logs should be analyzed on the below perspectives to ensure it adds value to our security monitoring,
@@ -81,11 +79,15 @@ In this stage we will build our first set of usecases to detect anomalies around
 - Internet to Intranet (and vice-versa) connection on suspicious ports such as 445, 3389, 22, etc.,
 - VPN connections from non-business countries
 - Brute Force Login Attempts
-- SPAM email
+- Phishing email
 - Intranet Port Scanning
 
 > Age:I.M3 might produce high False Positive alerts if we haven't understood the environment better (both N-->S and E-->W traffic behavior to be gathered and excluded as part of known behaviors)
 
 ## Age II
+This stage is more of an intelligence driven approach to detect, alert and degrade attackers actions against an environment.
+
+<img width="914" alt="Age II" src="https://user-images.githubusercontent.com/86832373/175767639-97a5d5e5-24fb-49ec-8f85-52265bf2b576.png">
+
 
 SFM model was designed based on my understanding of SOC and the requirements it should full-fill to combat cyber threats. Feel free to reach me through email (kaviarasan1195@gmail.com) for queries and feedback.
