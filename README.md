@@ -64,7 +64,7 @@ In this stage we will build our first set of usecases to detect anomalies around
 - Phishing email
 - Intranet Port Scanning
 
-> Age:I.M3 might produce high False Positive alerts if we haven't understood the environment better (both N-->S and E-->W traffic behavior to be gathered and excluded as part of known behaviors)
+> **_NOTE:_** Age:I.M3 might produce high False Positive alerts if we haven't understood the environment better (both N-->S and E-->W traffic behavior to be gathered and excluded as part of known behaviors)
 
 ## Age II
 This stage is more of an intelligence driven approach to detect, alert and degrade attackers actions against an environment.
@@ -80,7 +80,7 @@ In this stage we will gather the list of adversaries who might be interested aga
 
 The output of this stage will produce adversary list from whom we will defend our network. 
 
-> Say for example, our output from previous step has given APT29 and APT 30 as our adversary and going forward this adversary profile is called "Threat Book"
+> **_NOTE:_** Say for example, our output from previous step has given APT29 and APT 30 as our adversary and going forward this adversary profile is called "Threat Book"
 
 > References: [Threat Modeling](https://redcanary.com/blog/threat-modeling/)  
 
@@ -94,13 +94,13 @@ The combination of TTP by both threat groups is compiled with the help of MITRE 
 - [Redcanary](https://redcanary.com/threat-detection-report/threats/)
 - [Sigma](https://github.com/SigmaHQ/sigma/tree/master/rules)
 
-> IOC based intelligence to detect our "Threat Book" should be collected with the help of Threat Intelligence Platform such as MISP.
+> **_NOTE:_** IOC based intelligence to detect our "Threat Book" should be collected with the help of Threat Intelligence Platform such as MISP.
 
 ### Age:II.M3 - Risk Remediation Analysis
 
 During this stage we will analyze the list of security controls which will be helpful in defending against the adversary TTPs(in our case APT29 and APT30). This is a hands-on excercise to understand the detection, deny, degarde and deceive capabilities of the security tools and map them to MITRE matrix against our "Threat Book" TTPs.
 
-> Upon research, I found MITRE Engenuity [security-stack-mapping](https://github.com/center-for-threat-informed-defense/security-stack-mappings) for Azure and AWS.This is still a research topic for me wherein I am looking for something more similar to Engenuity project for on-premise IT environment. If you know any references, kindly share your inputs through email(kaviarasan1195@gmail.com)
+> **_Research Topic:_** Upon research, I found MITRE Engenuity [security-stack-mapping](https://github.com/center-for-threat-informed-defense/security-stack-mappings) for Azure and AWS.This is still a research topic for me wherein I am looking for something more similar to Engenuity project for on-premise IT environment. If you know any references, kindly share your inputs through email(kaviarasan1195@gmail.com)
 
 > References : [Risk Remediation Analysis](https://www.mitre.org/publications/systems-engineering-guide/enterprise-engineering/systems-engineering-for-mission-assurance/cyber-risk-remediation-analysis; [SOC Assessment](https://mad-certified.mitre-engenuity.org/group/283477) 
 
