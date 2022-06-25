@@ -77,9 +77,9 @@ In this stage we will gather the list of adversaries who might be interested aga
 
 The output of this stage will produce adversary list from whom we will defend our network. 
 
-> Say for example out out has given APT29 and APT 30 as our adversary.
+> Say for example, our output from previous step has given APT29 and APT 30 as our adversary.
 
-For more details on threat modeling refer [Threat Modeling](https://redcanary.com/blog/threat-modeling/)
+[Threat Modeling](https://redcanary.com/blog/threat-modeling/)
 
 ### Age:II.M2 - Intelligence driven Analytics
 From the previous stage (Age:II.M1) output we have compiled a TTP map for the adversaries,
@@ -97,7 +97,7 @@ There are plenty of resources which will help building the usecase repositiory. 
 
 ### Age:II.M3 - Risk Remediation Analysis**
 
-During this stage we will analyze the list of security controls which will be helpful in defending against the adversary TTPs(in our case APT29 and APT30). Upon research, I found MITRE Engenuity [security-stack-mapping](https://github.com/center-for-threat-informed-defense/security-stack-mappings) for Azure and AWS. However, this is still a research topic for me wherein I am looking for something more similar to Engenuity project for on-premise IT environment. If you know any references, kindly share your inputs through [email](kaviarasan1195@gmail.com)
+During this stage we will analyze the list of security controls which will be helpful in defending against the adversary TTPs(in our case APT29 and APT30). Upon research, I found MITRE Engenuity [security-stack-mapping](https://github.com/center-for-threat-informed-defense/security-stack-mappings) for Azure and AWS. However, this is still a research topic for me wherein I am looking for something more similar to Engenuity project for on-premise IT environment. If you know any references, kindly share your inputs through email(kaviarasan1195@gmail.com)
 
 ## Age III
 
