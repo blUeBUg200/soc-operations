@@ -43,10 +43,10 @@ This stage is about understanding the environment, business and assets which are
 - Identify Mission Dependencies
     - Identify dependencies for the mission critical assets
 
-> **_NOTE:_** Planning to build a asset dependency graph with the help of [Neo4j](https://neo4j.com/). If you know any references or exisiting FOSS projects which has this module inbuilt, kindly shoot an email to kaviarasan1195@gmail.com with the references attached.
-
-> References: 
+> Topic Reference(s): 
 > [MITRE CJA](https://www.mitre.org/publications/systems-engineering-guide/enterprise-engineering/systems-engineering-for-mission-assurance/crown-jewels-analysis)
+
+> **_NOTE:_** Planning to build a asset dependency graph with the help of [Neo4j](https://neo4j.com/). If you know any references or exisiting FOSS projects which has this module inbuilt, kindly shoot an email to kaviarasan1195@gmail.com with the references attached.
 
 ### Age:I.M2 - Log Quality Analysis
 Integrate the assets with centralized management solution such as Security Information & Event Management(SIEM). Post integration, the logs should be subjected to below checks to ensure it adds value to our security monitoring,
@@ -56,7 +56,8 @@ Integrate the assets with centralized management solution such as Security Infor
 - Timeliness
 - Consistency
 - Retention
-> References : [Log Quality Check](https://github.com/blUeBUg200/bluenightingale#pick-a-mitre-data-source)
+
+> Topic Reference(s):  [Log Quality Check](https://github.com/blUeBUg200/bluenightingale#pick-a-mitre-data-source)
 
 ### Age:I.M3 - Primary Analytics
 In this stage we will build our first set of usecases to detect anomalies around our crown jewel assets. Below are the few categories of usecases (feel free to add more based on your environment)
@@ -85,7 +86,7 @@ The output of this stage will produce adversary list from whom we will defend ou
 
 > **_NOTE:_** Say for example, our output from previous step has given APT29 and APT 30 as our adversary and going forward this adversary profile is called "Threat Book"
 
-> References: [Threat Modeling](https://redcanary.com/blog/threat-modeling/)  
+> Topic Reference(s): [Threat Modeling](https://redcanary.com/blog/threat-modeling/)  
 
 ### Age:II.M2 - Intelligence driven Analytics
 From the previous stage (Age:II.M1) output we have compiled a TTP map for the adversaries,
@@ -105,7 +106,7 @@ During this stage we will analyze the list of security controls which will be he
 
 > **_Research Topic:_** Upon research, I found MITRE Engenuity [security-stack-mapping](https://github.com/center-for-threat-informed-defense/security-stack-mappings) for Azure and AWS.This is still a research topic for me wherein I am looking for something more similar to Engenuity project for on-premise IT environment. If you know any references or exisiting FOSS projects which has this module inbuilt, kindly shoot an email to kaviarasan1195@gmail.com with the references attached.
 
-> References : [Risk Remediation Analysis](https://www.mitre.org/publications/systems-engineering-guide/enterprise-engineering/systems-engineering-for-mission-assurance/cyber-risk-remediation-analysis; [SOC Assessment](https://mad-certified.mitre-engenuity.org/group/283477) 
+> Topic Reference(s): [Risk Remediation Analysis](https://www.mitre.org/publications/systems-engineering-guide/enterprise-engineering/systems-engineering-for-mission-assurance/cyber-risk-remediation-analysis; [SOC Assessment](https://mad-certified.mitre-engenuity.org/group/283477) 
 
 ## Age III
 During this stage, more proactive actions are conducted which helps SOC to respond faster to cyber threats.
@@ -122,7 +123,7 @@ Create a MITRE Att&ck layer combining all the three and have a clear understandi
 
 Based on the above we might endup with few TTPs remained untouched by all categories (deny, detect, deceive or degarde). A detailed research should be conducted against the list and threat-informed decisions need to be made (either enable logging or purchase of new security controls)
 
-> References : [MITRE Navigator](https://mitre-attack.github.io/attack-navigator/)
+> Topic Reference(s): [MITRE Navigator](https://mitre-attack.github.io/attack-navigator/)
 
 ### Age:III.M2 - Security Automation
 Automations to reduce man efforts on repeated tasks should be incorporated.
