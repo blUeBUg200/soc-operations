@@ -89,5 +89,22 @@ This stage is more of an intelligence driven approach to detect, alert and degra
 
 <img width="914" alt="Age II" src="https://user-images.githubusercontent.com/86832373/175767639-97a5d5e5-24fb-49ec-8f85-52265bf2b576.png">
 
+### Age:II.M1 - Threat Modeling
+In this stage we will gather the list of adversaries who might be interested against your crown jewel assets. The adversaries might land in your environment based on below factors,
+
+- Industry
+- Available Technology
+- Geographical Location
+- Targetted
+
+For more details on threat modeling refer [Threat Modeling](https://redcanary.com/blog/threat-modeling/)
+
+### Age:II.M2 - Intelligence driven Analytics
+From the previous stage (Age:II.M1) output we have compiled a threat model and it contains below threat groups,
+- APT 29 [Matrix](https://github.com/blUeBUg200/soc-operations/blob/main/APT29.svg)
+- APT 30 [Matrix](https://github.com/blUeBUg200/soc-operations/blob/main/APT30.svg)
+
+The combination of TTP for both the threat groups can be compiled with the help of MITRE Navigator and the output will look something like [this](https://github.com/blUeBUg200/soc-operations/blob/main/APT_Combined.svg)
+
 
 SFM model was designed based on my understanding of SOC and the requirements it should full-fill to combat cyber threats. Feel free to reach me through email (kaviarasan1195@gmail.com) for queries and feedback.
