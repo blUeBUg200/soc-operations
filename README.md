@@ -55,7 +55,7 @@ This stage is about understanding the environment, business and assets which are
 
 <img width="914" alt="Age I" src="https://user-images.githubusercontent.com/86832373/175763566-0cce41b9-cbe1-44fa-9dc9-4bcb6101a8f9.png">
 
-### AgeI.M1 - Crown Jewel Analysis
+### Age:I.M1 - Crown Jewel Analysis
 - Understand Mission Priorities
     - Understand the business focus and its missions
     - Identify relevant assets which drive the mission's success
@@ -64,7 +64,7 @@ This stage is about understanding the environment, business and assets which are
 - Prepare for Threat Profiling
     - Plan for resources and references for creating a threat profile
  
-### AgeI.M2 - Log Quality Analysis
+### Age:I.M2 - Log Quality Analysis
 The integrated device logs should be analyzed on the below perspectives to ensure it adds value to our security monitoring,
 
 - Device Completeness
@@ -75,8 +75,17 @@ The integrated device logs should be analyzed on the below perspectives to ensur
 
 more details on the above topics can be found [here](https://github.com/blUeBUg200/bluenightingale#pick-a-mitre-data-source) 
 
-### AgeI.M3 - Primary Analytics
+### Age:I.M3 - Primary Analytics
+In this stage we will build our first set of usecases to detect anomalies around our crown jewel assets. The usecases might include but not restricted to below,
 
+- Internet to Intranet (and vice-versa) connection on suspicious ports such as 445, 3389, 22, etc.,
+- VPN connections from non-business countries
+- Brute Force Login Attempts
+- SPAM email
+- Intranet Port Scanning
 
+> This stage might produce high False Positive alerts if we forget to understand the environment better (both N-->S and E-->W traffic behavior to be gathered and excluded as part of known behaviors)
+
+## Age II
 
 SFM model was designed based on my understanding of SOC and the requirements it should full-fill to combat cyber threats. Feel free to reach me through email (kaviarasan1195@gmail.com) for queries and feedback.
