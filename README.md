@@ -125,6 +125,8 @@ Based on the above we might endup with few TTPs remained untouched by all catego
 
 > Topic Reference(s): [MITRE Navigator](https://mitre-attack.github.io/attack-navigator/)
 
+> **_Research Topic:_** Looking for a way to map the output of this stage into node weights against each crown jewel asset. The final crown jewel asset dependency graph should contain node dependency link, node risk value which help defenders to understand their current capability and the area to focus.
+
 ### Age:III.M2 - Security Automation
 Automations to reduce man efforts on repeated tasks should be incorporated.
 
