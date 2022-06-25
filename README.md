@@ -94,6 +94,12 @@ No we have list of TTPs for which we need to create detection usecases. There ar
 
 During this stage we will analyze the list of security controls which will be useful in defending against the adversary TTPs that we care about. Upon research, I found MITRE Engenuity [security-stack-mapping](https://github.com/center-for-threat-informed-defense/security-stack-mappings) for Azure and AWS. However, this is still a research topic for me wherein I looking for something more similar to Engenuity project for on-premise IT environment. If you know any references, kindly share your inputs through my email ID listed at the end of the page.
 
+## Age III
 
+<img width="914" alt="Age III" src="https://user-images.githubusercontent.com/86832373/175775321-e570f00a-7aff-437a-a3b1-9a46be5b9c0c.png">
+
+## Age IV
+
+<img width="914" alt="Age IV" src="https://user-images.githubusercontent.com/86832373/175775420-576c37af-581a-498f-bdc6-29657ed21950.png">
 
 SFM model was designed based on my understanding of SOC and the requirements it should full-fill to combat cyber threats. Feel free to reach me through email (kaviarasan1195@gmail.com) for queries and feedback.
