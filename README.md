@@ -52,8 +52,6 @@ Integrate the assets with centralized management solution such as Security Infor
 - Consistency
 - Retention
 
-more details on the above topics can be found [here](https://github.com/blUeBUg200/bluenightingale#pick-a-mitre-data-source) 
-
 ### Age:I.M3 - Primary Analytics
 In this stage we will build our first set of usecases to detect anomalies around our crown jewel assets. Below are the few categories of usecases (feel free to add more based on your environment)
 
@@ -71,7 +69,6 @@ This stage is more of an intelligence driven approach to detect, alert and degra
 <img width="914" alt="Age II" src="https://user-images.githubusercontent.com/86832373/175767639-97a5d5e5-24fb-49ec-8f85-52265bf2b576.png">
 
 ### Age:II.M1 - Threat Modeling
-[Threat Modeling](https://redcanary.com/blog/threat-modeling/)
 In this stage we will gather the list of adversaries who might be interested against your crown jewel assets. The adversaries might land in your environment based on below factors,
 
 - Industry
@@ -100,12 +97,35 @@ During this stage we will analyze the list of security controls which will be he
 > This is still a research topic for me wherein I am looking for something more similar to Engenuity project for on-premise IT environment. If you know any references, kindly share your inputs through email(kaviarasan1195@gmail.com)
 
 ## Age III
+During this stage, more proactive actions are conducted which helps SOC to respond faster to cyber threats.
 
 <img width="914" alt="Age III" src="https://user-images.githubusercontent.com/86832373/175775321-e570f00a-7aff-437a-a3b1-9a46be5b9c0c.png">
+
+### Age:III.M1 - MITRE Detection Coverage
+Based on the stage (Age:II.M1) we know the list of TTP to detect and from stages (Age:II.M2) & (Age:II.M3) we can compile a matrix which portrays the list of TTP we can detect, alert, deceive and degrade the attackers progress.
+
+Create a MITRE Att&ck layer combining all the three and have a clear understanding of the below,
+- Techniques we can detect
+- Techniques we can degrade and deceive
+- Techniques we can deny
+
+Based on the above we might endup with few TTPs remained untouched by all categories (deny, detect, deceive or degarde). A detailed research should be conducted against the list and threat-informed decisions need to be made (either enable logging or purchase of new security controls)
+
+### Age:III.M2 - Security Automation
+Automations to reduce man efforts on repeated tasks should be incorporated.
+
+### Age:III.M3 - Vulnerability Management
+Vulnerability Assessment gives more visibility about the assets driving with high critical vulnerabilities. Periodic patch management and vulnerability assessment hand by hand provides more visibility to the security posture of the organization.
+
+### Age:III.M4 - Threat Hunting
+The process of threat hunting is briefed in one of writings earlier. Follow this [link](https://github.com/blUeBUg200/bluenightingale#soc---the-blue-nightingale) for more details.
 
 ## Age IV
 
 <img width="914" alt="Age IV" src="https://user-images.githubusercontent.com/86832373/175775420-576c37af-581a-498f-bdc6-29657ed21950.png">
+
+### Age:IV.M3 - Threat Emulation
+Threat Emulation will help organization to understand their capability to detect when an threat profiled adversary in conductiong their operation against the environment. The mimicked Techniques need to be emulated and the security usecase alerting efficiency need to be validated post emulation activity.
 
 ## SOC Iteration Model
 
