@@ -102,4 +102,8 @@ During this stage we will analyze the list of security controls which will be us
 
 <img width="914" alt="Age IV" src="https://user-images.githubusercontent.com/86832373/175775420-576c37af-581a-498f-bdc6-29657ed21950.png">
 
+## SOC Iteration Model
+
+<img width="914" alt="Iteration Model" src="https://user-images.githubusercontent.com/86832373/175775983-f9b6ee18-02db-44a7-b22a-44fd7b65410a.png">
+
 SFM model was designed based on my understanding of SOC and the requirements it should full-fill to combat cyber threats. Feel free to reach me through email (kaviarasan1195@gmail.com) for queries and feedback.
