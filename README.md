@@ -133,6 +133,9 @@ Threat Emulation will help organization to understand their capability to detect
 As mentioned in the introuduction, the stages are iterative process and keeps changing as the organization mission changes, priority changes. 
 Below picture shows the repeat loop of the stages which will be iterated over a period of time.
 
-<img width="914" alt="Iteration Model" src="https://user-images.githubusercontent.com/86832373/175775983-f9b6ee18-02db-44a7-b22a-44fd7b65410a.png">
+<img width="1085" alt="Iteration Model" src="https://user-images.githubusercontent.com/86832373/175778782-0021521f-9224-4a80-b75f-77cce7f68b1d.png">
+
+- Repeat Q : Operates when your emulation excercise output shows proven detection gaps which need to be fixed.
+- Repeat W : Operates when you business mission changes, priority changes and the environment expands.
 
 SFM model was designed based on my understanding of SOC and the requirements it should full-fill to combat cyber threats. Feel free to reach me through email (kaviarasan1195@gmail.com) for queries and feedback.
