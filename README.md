@@ -32,7 +32,7 @@ Requesting the audience to have basic understanding of below topics before jumpi
 SFM consists of 5 stages to build a new SOC and 4 stages to asses your exisiting SOC.
 
 
-<img width="1192" alt="SFM Stages" src="https://user-images.githubusercontent.com/86832373/175633961-917f4da8-5f33-431e-833c-a76ebf31a1de.png">
+<img width="914" alt="SFM Stages" src="https://user-images.githubusercontent.com/86832373/175633961-917f4da8-5f33-431e-833c-a76ebf31a1de.png">
 
 
 ## Infancy
@@ -49,6 +49,7 @@ This stage applies only for organizations who are planning to setup Security Ope
 
 SOC should perform a Crown Jewel Analysis (CJA) to identify business critical assets whose compromise might disrupt the business mission. 
 
-<img width="888" alt="Age I" src="https://user-images.githubusercontent.com/86832373/175648147-b6ac1f50-652f-4ec5-898d-a018349899fb.png">
+<img width="914" alt="Ag I" src="https://user-images.githubusercontent.com/86832373/175763529-8a936e9a-5f22-4ad8-a0e4-89ff4195d3a6.png">
+
 
 SFM model was designed based on my understanding of SOC and the requirements it should full-fill to combat cyber threats. Feel free to reach me through email (kaviarasan1195@gmail.com) for queries and feedback.
