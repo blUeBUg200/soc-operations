@@ -142,6 +142,9 @@ The process of threat hunting is briefed in one of writings earlier. Follow this
 
 ### Age:IV.M3 - Threat Emulation
 Threat Emulation will help organization to understand their capability to detect when an threat profiled adversary in conductiong their operation against the environment. The mimicked Techniques need to be emulated and the security usecase alerting efficiency need to be validated post emulation activity.
+> Topic Reference(s): 
+> [Threat Emulation](https://mad-certified.mitre-engenuity.org/group/359563) 
+> [Caldera](https://github.com/mitre/caldera)
 
 ## SOC Iteration Model
 
