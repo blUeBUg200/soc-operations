@@ -85,18 +85,17 @@ From the previous stage (Age:II.M1) output we have compiled a TTP map for the ad
 - APT 29 [Matrix](https://github.com/blUeBUg200/soc-operations/blob/main/APT29.svg)
 - APT 30 [Matrix](https://github.com/blUeBUg200/soc-operations/blob/main/APT30.svg)
 
-The combination of TTP by both threat groups is compiled with the help of MITRE Navigator and the output will look something like [this](https://github.com/blUeBUg200/soc-operations/blob/main/APT_Combined.svg)
-
-No we have list of TTPs for which we need to create detection usecases.
-
-There are plenty of resources which will help building the usecase repositiory. Listing few sites for reference,
+The combination of TTP by both threat groups is compiled with the help of MITRE Navigator and the output will look something like [this](https://github.com/blUeBUg200/soc-operations/blob/main/APT_Combined.svg). No we have list of TTPs for which we need to create detection usecases.There are plenty of resources which will help building the usecase repositiory. Listing few sites for reference,
 
 - [Redcanary](https://redcanary.com/threat-detection-report/threats/)
 - [Sigma](https://github.com/SigmaHQ/sigma/tree/master/rules)
 
-### Age:II.M3 - Risk Remediation Analysis**
+> IOC based intelligence should be collected with the help of Threat Intelligence Platform such as MISP.
 
-During this stage we will analyze the list of security controls which will be helpful in defending against the adversary TTPs(in our case APT29 and APT30). Upon research, I found MITRE Engenuity [security-stack-mapping](https://github.com/center-for-threat-informed-defense/security-stack-mappings) for Azure and AWS. However, this is still a research topic for me wherein I am looking for something more similar to Engenuity project for on-premise IT environment. If you know any references, kindly share your inputs through email(kaviarasan1195@gmail.com)
+### Age:II.M3 - Risk Remediation Analysis
+
+During this stage we will analyze the list of security controls which will be helpful in defending against the adversary TTPs(in our case APT29 and APT30). Upon research, I found MITRE Engenuity [security-stack-mapping](https://github.com/center-for-threat-informed-defense/security-stack-mappings) for Azure and AWS. 
+> This is still a research topic for me wherein I am looking for something more similar to Engenuity project for on-premise IT environment. If you know any references, kindly share your inputs through email(kaviarasan1195@gmail.com)
 
 ## Age III
 
