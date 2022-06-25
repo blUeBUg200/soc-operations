@@ -41,15 +41,19 @@ This stage applies only for organizations who are planning to setup Security Ope
 <img width="914" alt="Infancy" src="https://user-images.githubusercontent.com/86832373/175763326-1c7d0d1c-6e8e-46d9-9306-ce78d68e1e5e.png">
 
 
-- SOC monitoring scope (such as only production, production + development, production + development + disaster recovery) based on business requirement
-- Procurement of SOC tools with high Return of Investment (such as Security Information & Event Management, Endpoint Detection & Response, Network Detection  & Response)
+### Infancy.M1 
+SOC monitoring scope (such as only production, production + development, production + development + disaster recovery) based on business requirement
+
+### Infancy.M2
+Procurement of SOC tools with high Return of Investment (such as Security Information & Event Management, Endpoint Detection & Response, Network Detection  & Response)
 - Mode of SOC operation (In-House or Managed Security Service Provider)
 
 ## Age I
 
-SOC should perform a Crown Jewel Analysis (CJA) to identify business critical assets whose compromise might disrupt the business mission. 
 
 <img width="914" alt="Age I" src="https://user-images.githubusercontent.com/86832373/175763566-0cce41b9-cbe1-44fa-9dc9-4bcb6101a8f9.png">
 
+SOC will perform Crown Jewel Analysis (CJA) to identify business critical assets whose compromise might disrupt the business mission.
+ 
 
 SFM model was designed based on my understanding of SOC and the requirements it should full-fill to combat cyber threats. Feel free to reach me through email (kaviarasan1195@gmail.com) for queries and feedback.
