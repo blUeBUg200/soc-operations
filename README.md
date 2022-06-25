@@ -141,13 +141,13 @@ The process of threat hunting is briefed in one of writings earlier. Follow this
 <img width="914" alt="Age IV" src="https://user-images.githubusercontent.com/86832373/175775420-576c37af-581a-498f-bdc6-29657ed21950.png">
 
 ### Age:IV.M3 - Threat Emulation
-Threat Emulation will help organization to understand their capability to detect when an threat profiled adversary in conductiong their operation against the environment. The mimicked Techniques need to be emulated and the security usecase alerting efficiency need to be validated post emulation activity.
+Threat Emulation will help organization to understand their capability to detect when an threat profiled adversary in conducting their operation against the environment. The mimicked Techniques need to be emulated and the security usecase alerting efficiency need to be validated post emulation activity.
 > Topic Reference(s): 
 > [Threat Emulation](https://mad-certified.mitre-engenuity.org/group/359563); [Caldera](https://github.com/mitre/caldera)
 
 ## SOC Iteration Model
 
-As mentioned in the introuduction, the stages are iterative process and keeps changing as the organization mission changes, priority changes. 
+As mentioned in the introduction, the stages are iterative process and keeps changing as the organization mission changes, priority changes. 
 Below picture shows the repeat loop of the stages which will be iterated over a period of time.
 
 <img width="1085" alt="Iteration Model" src="https://user-images.githubusercontent.com/86832373/175778782-0021521f-9224-4a80-b75f-77cce7f68b1d.png">
