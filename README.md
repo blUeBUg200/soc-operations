@@ -69,6 +69,7 @@ This stage is more of an intelligence driven approach to detect, alert and degra
 <img width="914" alt="Age II" src="https://user-images.githubusercontent.com/86832373/175767639-97a5d5e5-24fb-49ec-8f85-52265bf2b576.png">
 
 ### Age:II.M1 - Threat Modeling
+[Threat Modeling](https://redcanary.com/blog/threat-modeling/)
 In this stage we will gather the list of adversaries who might be interested against your crown jewel assets. The adversaries might land in your environment based on below factors,
 
 - Industry
@@ -78,8 +79,6 @@ In this stage we will gather the list of adversaries who might be interested aga
 The output of this stage will produce adversary list from whom we will defend our network. 
 
 > Say for example, our output from previous step has given APT29 and APT 30 as our adversary.
-
-[Threat Modeling](https://redcanary.com/blog/threat-modeling/)
 
 ### Age:II.M2 - Intelligence driven Analytics
 From the previous stage (Age:II.M1) output we have compiled a TTP map for the adversaries,
