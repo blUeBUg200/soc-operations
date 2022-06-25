@@ -46,7 +46,7 @@ This stage is about understanding the environment, business and assets which are
 > Topic Reference(s): 
 > [MITRE CJA](https://www.mitre.org/publications/systems-engineering-guide/enterprise-engineering/systems-engineering-for-mission-assurance/crown-jewels-analysis)
 
-> **Research Topic:_** Planning to build a asset dependency graph with the help of [Neo4j](https://neo4j.com/). If you know any references or exisiting FOSS projects which has this module inbuilt, kindly shoot an email to kaviarasan1195@gmail.com with the references attached.
+> **_Research Topic:_** Planning to build a asset dependency graph with the help of [Neo4j](https://neo4j.com/). If you know any references or exisiting FOSS projects which has this module inbuilt, kindly shoot an email to kaviarasan1195@gmail.com with the references attached.
 
 ### Age:I.M2 - Log Quality Analysis
 Integrate the assets with centralized management solution such as Security Information & Event Management(SIEM). Post integration, the logs should be subjected to below checks to ensure it adds value to our security monitoring,
