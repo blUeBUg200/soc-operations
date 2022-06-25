@@ -41,19 +41,42 @@ This stage applies only for organizations who are planning to setup Security Ope
 <img width="914" alt="Infancy" src="https://user-images.githubusercontent.com/86832373/175763326-1c7d0d1c-6e8e-46d9-9306-ce78d68e1e5e.png">
 
 
-### Infancy.M1 
+### Infancy.M1 - Monitoring Scope
 SOC monitoring scope (such as only production, production + development, production + development + disaster recovery) based on business requirement
 
-### Infancy.M2
+### Infancy.M2 - Tools Procurement
 Procurement of SOC tools with high Return of Investment (such as Security Information & Event Management, Endpoint Detection & Response, Network Detection  & Response)
-- Mode of SOC operation (In-House or Managed Security Service Provider)
+
+### Infancy.M3 - Mode of Operation
+Mode of SOC operation to be decided such as In-House or Managed Security Service Provider(MssP)
 
 ## Age I
-
+This stage is about understanding the environment, business and assets which are of high value target for an attacker.
 
 <img width="914" alt="Age I" src="https://user-images.githubusercontent.com/86832373/175763566-0cce41b9-cbe1-44fa-9dc9-4bcb6101a8f9.png">
 
-SOC will perform Crown Jewel Analysis (CJA) to identify business critical assets whose compromise might disrupt the business mission.
+### AgeI.M1 - Crown Jewel Analysis
+- Understand Mission Priorities
+    - Understand the business focus and its missions
+    - Identify relevant assets which drive the mission's success
+- Identify Mission Dependencies
+    - Identify dependencies for the mission critical assets
+- Prepare for Threat Profiling
+    - Plan for resources and references for creating a threat profile
  
+### AgeI.M2 - Log Quality Analysis
+The integrated device logs should be analyzed on the below perspectives to ensure it adds value to our security monitoring,
+
+- Device Completeness
+- Data Field Completeness
+- Timeliness
+- Consistency
+- Retention
+
+more details on the above topics can be found [here](https://github.com/blUeBUg200/bluenightingale#pick-a-mitre-data-source) 
+
+### AgeI.M3 - Primary Analytics
+
+
 
 SFM model was designed based on my understanding of SOC and the requirements it should full-fill to combat cyber threats. Feel free to reach me through email (kaviarasan1195@gmail.com) for queries and feedback.
