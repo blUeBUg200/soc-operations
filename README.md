@@ -77,7 +77,7 @@ In this stage we will gather the list of adversaries who might be interested aga
 
 The output of this stage will produce adversary list from whom we will defend our network. 
 
-> Say for example, our output from previous step has given APT29 and APT 30 as our adversary.
+> Say for example, our output from previous step has given APT29 and APT 30 as our adversary and going forward this adversary profile is called "Threat Book"
 
 ### Age:II.M2 - Intelligence driven Analytics
 From the previous stage (Age:II.M1) output we have compiled a TTP map for the adversaries,
@@ -89,11 +89,11 @@ The combination of TTP by both threat groups is compiled with the help of MITRE 
 - [Redcanary](https://redcanary.com/threat-detection-report/threats/)
 - [Sigma](https://github.com/SigmaHQ/sigma/tree/master/rules)
 
-> IOC based intelligence should be collected with the help of Threat Intelligence Platform such as MISP.
+> IOC based intelligence to detect our "Threat Book" should be collected with the help of Threat Intelligence Platform such as MISP.
 
 ### Age:II.M3 - Risk Remediation Analysis
 
-During this stage we will analyze the list of security controls which will be helpful in defending against the adversary TTPs(in our case APT29 and APT30). This is a hands-on excercise to understand the detection, deny, degarde and deceive capabilities of the security tools and map them to MITRE matrix as a common reference playbook.
+During this stage we will analyze the list of security controls which will be helpful in defending against the adversary TTPs(in our case APT29 and APT30). This is a hands-on excercise to understand the detection, deny, degarde and deceive capabilities of the security tools and map them to MITRE matrix against our "Threat Book" TTPs.
 
 > Upon research, I found MITRE Engenuity [security-stack-mapping](https://github.com/center-for-threat-informed-defense/security-stack-mappings) for Azure and AWS.This is still a research topic for me wherein I am looking for something more similar to Engenuity project for on-premise IT environment. If you know any references, kindly share your inputs through email(kaviarasan1195@gmail.com)
 
