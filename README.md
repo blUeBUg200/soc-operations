@@ -84,7 +84,7 @@ In this stage we will build our first set of usecases to detect anomalies around
 - SPAM email
 - Intranet Port Scanning
 
-> Age:I.M3 might produce high False Positive alerts if we forget to understand the environment better (both N-->S and E-->W traffic behavior to be gathered and excluded as part of known behaviors)
+> Age:I.M3 might produce high False Positive alerts if we haven't understood the environment better (both N-->S and E-->W traffic behavior to be gathered and excluded as part of known behaviors)
 
 ## Age II
 
