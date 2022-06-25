@@ -49,7 +49,7 @@ This stage applies only for organizations who are planning to setup Security Ope
 
 SOC should perform a Crown Jewel Analysis (CJA) to identify business critical assets whose compromise might disrupt the business mission. 
 
-<img width="914" alt="Ag I" src="https://user-images.githubusercontent.com/86832373/175763529-8a936e9a-5f22-4ad8-a0e4-89ff4195d3a6.png">
+<img width="914" alt="Age I" src="https://user-images.githubusercontent.com/86832373/175763566-0cce41b9-cbe1-44fa-9dc9-4bcb6101a8f9.png">
 
 
 SFM model was designed based on my understanding of SOC and the requirements it should full-fill to combat cyber threats. Feel free to reach me through email (kaviarasan1195@gmail.com) for queries and feedback.
