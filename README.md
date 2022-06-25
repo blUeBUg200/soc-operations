@@ -38,6 +38,9 @@ SFM consists of 5 stages to build a new SOC and 4 stages to asses your exisiting
 ## Infancy
 This stage applies only for organizations who are planning to setup Security Operation Centre (SOC) for first time. Below aspects can be decided during the process of planning
 
+<img width="914" alt="Infancy" src="https://user-images.githubusercontent.com/86832373/175763326-1c7d0d1c-6e8e-46d9-9306-ce78d68e1e5e.png">
+
+
 - SOC monitoring scope (such as only production, production + development, production + development + disaster recovery) based on business requirement
 - Procurement of SOC tools with high Return of Investment (such as Security Information & Event Management, Endpoint Detection & Response, Network Detection  & Response)
 - Mode of SOC operation (In-House or Managed Security Service Provider)
