@@ -4,7 +4,7 @@ SOC Functional Model (SFM) helps organizations to plan & prepare setting up an n
 
 Requesting the audience to have basic understanding of below topics before jumping into the described process for better understanding,
 
-- [Neo4j](https://neo4j.com/)        | [MaGMa UCF](https://www.betaalvereniging.nl/en/safety/magma/)           | [MITRE ATT&CK](https://attack.mitre.org/)  | [SOC Assessment](https://mad-certified.mitre-engenuity.org/group/283477)        | [MITRE Navigator](https://mitre-attack.github.io/attack-navigator/)           | [Threat Modeling](https://redcanary.com/blog/threat-modeling/)  
+[MITRE ATT&CK](https://attack.mitre.org/)  | [SOC Assessment](https://mad-certified.mitre-engenuity.org/group/283477)        | [MITRE Navigator](https://mitre-attack.github.io/attack-navigator/)           | [Threat Modeling](https://redcanary.com/blog/threat-modeling/)  
 
 - [Threat Emulation](https://mad-certified.mitre-engenuity.org/group/359563)           | [DeTT&CT Framework](https://github.com/rabobank-cdc/DeTTECT)  | [MITRE CJA](https://www.mitre.org/publications/systems-engineering-guide/enterprise-engineering/systems-engineering-for-mission-assurance/crown-jewels-analysis) | [Risk Remediation Analysis](https://www.mitre.org/publications/systems-engineering-guide/enterprise-engineering/systems-engineering-for-mission-assurance/cyber-risk-remediation-analysis)
 
@@ -42,6 +42,9 @@ This stage is about understanding the environment, business and assets which are
     - Identify relevant assets which drive the mission's success
 - Identify Mission Dependencies
     - Identify dependencies for the mission critical assets
+
+> **_NOTE:_** Planning to build a asset dependency graph with the help of [Neo4j](https://neo4j.com/). If you know any references or exisiting FOSS projects which has this module inbuilt, kindly shoot an email to kaviarasan1195@gmail.com with the references attached.
+
 > References: 
 > [MITRE CJA](https://www.mitre.org/publications/systems-engineering-guide/enterprise-engineering/systems-engineering-for-mission-assurance/crown-jewels-analysis)
 
@@ -100,7 +103,7 @@ The combination of TTP by both threat groups is compiled with the help of MITRE 
 
 During this stage we will analyze the list of security controls which will be helpful in defending against the adversary TTPs(in our case APT29 and APT30). This is a hands-on excercise to understand the detection, deny, degarde and deceive capabilities of the security tools and map them to MITRE matrix against our "Threat Book" TTPs.
 
-> **_Research Topic:_** Upon research, I found MITRE Engenuity [security-stack-mapping](https://github.com/center-for-threat-informed-defense/security-stack-mappings) for Azure and AWS.This is still a research topic for me wherein I am looking for something more similar to Engenuity project for on-premise IT environment. If you know any references, kindly share your inputs through email(kaviarasan1195@gmail.com)
+> **_Research Topic:_** Upon research, I found MITRE Engenuity [security-stack-mapping](https://github.com/center-for-threat-informed-defense/security-stack-mappings) for Azure and AWS.This is still a research topic for me wherein I am looking for something more similar to Engenuity project for on-premise IT environment. If you know any references or exisiting FOSS projects which has this module inbuilt, kindly shoot an email to kaviarasan1195@gmail.com with the references attached.
 
 > References : [Risk Remediation Analysis](https://www.mitre.org/publications/systems-engineering-guide/enterprise-engineering/systems-engineering-for-mission-assurance/cyber-risk-remediation-analysis; [SOC Assessment](https://mad-certified.mitre-engenuity.org/group/283477) 
 
