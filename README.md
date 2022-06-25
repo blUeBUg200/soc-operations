@@ -106,7 +106,7 @@ During this stage we will analyze the list of security controls which will be he
 
 > **_Research Topic:_** Upon research, I found MITRE Engenuity [security-stack-mapping](https://github.com/center-for-threat-informed-defense/security-stack-mappings) for Azure and AWS.This is still a research topic for me wherein I am looking for something more similar to Engenuity project for on-premise IT environment. If you know any references or exisiting FOSS projects which has this module inbuilt, kindly shoot an email to kaviarasan1195@gmail.com with the references attached.
 
-> Topic Reference(s): [Risk Remediation Analysis](https://www.mitre.org/publications/systems-engineering-guide/enterprise-engineering/systems-engineering-for-mission-assurance/cyber-risk-remediation-analysis; [SOC Assessment](https://mad-certified.mitre-engenuity.org/group/283477) 
+> Topic Reference(s): [Risk Remediation Analysis](https://www.mitre.org/publications/systems-engineering-guide/enterprise-engineering/systems-engineering-for-mission-assurance/cyber-risk-remediation-analysis); [SOC Assessment](https://mad-certified.mitre-engenuity.org/group/283477) 
 
 ## Age III
 During this stage, more proactive actions are conducted which helps SOC to respond faster to cyber threats.
