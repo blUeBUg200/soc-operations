@@ -106,10 +106,15 @@ From the previous stage (Age:II.M1) output we have compiled a threat model and i
 
 The combination of TTP for both the threat groups can be compiled with the help of MITRE Navigator and the output will look something like [this](https://github.com/blUeBUg200/soc-operations/blob/main/APT_Combined.svg)
 
-No we have list of TTPs for which we need to create detection usecases. There are plenty of resources to refer to build the usecase repositiory. Listing few sites for reference,
+No we have list of TTPs for which we need to create detection usecases. There are plenty of resources which will help building the usecase repositiory. Listing few sites for reference,
 
 - [Redcanary](https://redcanary.com/threat-detection-report/threats/)
 - [Sigma](https://github.com/SigmaHQ/sigma/tree/master/rules)
+
+### Age:II.M3 - Risk Remediation Analysis
+
+During this stage we will analyze the list of security controls which will be useful in defending against the adversary TTPs that we care about. Upon research, I found MITRE Engenuity [security-stack-mapping](https://github.com/center-for-threat-informed-defense/security-stack-mappings) for Azure and AWS. However, this is still a research topic for me wherein I looking for something more similar to Engenuity project for on-premise IT environment. If you know any references, kindly share your inputs through my email ID listed at the end of the page.
+
 
 
 SFM model was designed based on my understanding of SOC and the requirements it should full-fill to combat cyber threats. Feel free to reach me through email (kaviarasan1195@gmail.com) for queries and feedback.
