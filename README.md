@@ -42,7 +42,7 @@ This stage is about understanding the environment, business and assets which are
     - Identify dependencies for the mission critical assets
  
 ### Age:I.M2 - Log Quality Analysis
-The integrated device logs should be analyzed on the below perspectives to ensure it adds value to our security monitoring,
+Integrate the assets with centralized management solution such as Security Information & Event Management(SIEM). Post integration, the logs should be subjected to below checks to ensure it adds value to our security monitoring,
 
 - Device Completeness
 - Data Field Completeness
@@ -53,7 +53,7 @@ The integrated device logs should be analyzed on the below perspectives to ensur
 more details on the above topics can be found [here](https://github.com/blUeBUg200/bluenightingale#pick-a-mitre-data-source) 
 
 ### Age:I.M3 - Primary Analytics
-In this stage we will build our first set of usecases to detect anomalies around our crown jewel assets. The usecases might include but not restricted to below,
+In this stage we will build our first set of usecases to detect anomalies around our crown jewel assets. Below are the few categories of usecases (feel free to add more based on your environment)
 
 - Internet to Intranet (and vice-versa) connection on suspicious ports such as 445, 3389, 22, etc.,
 - VPN connections from non-business countries
@@ -74,25 +74,30 @@ In this stage we will gather the list of adversaries who might be interested aga
 - Industry
 - Available Technology
 - Geographical Location
-- Targetted
+
+The output of this stage will produce adversary list from whom we will defend our network. 
+
+> Say for example out out has given APT29 and APT 30 as our adversary.
 
 For more details on threat modeling refer [Threat Modeling](https://redcanary.com/blog/threat-modeling/)
 
 ### Age:II.M2 - Intelligence driven Analytics
-From the previous stage (Age:II.M1) output we have compiled a threat model and it contains below threat groups,
+From the previous stage (Age:II.M1) output we have compiled a TTP map for the adversaries,
 - APT 29 [Matrix](https://github.com/blUeBUg200/soc-operations/blob/main/APT29.svg)
 - APT 30 [Matrix](https://github.com/blUeBUg200/soc-operations/blob/main/APT30.svg)
 
-The combination of TTP for both the threat groups can be compiled with the help of MITRE Navigator and the output will look something like [this](https://github.com/blUeBUg200/soc-operations/blob/main/APT_Combined.svg)
+The combination of TTP by both threat groups is compiled with the help of MITRE Navigator and the output will look something like [this](https://github.com/blUeBUg200/soc-operations/blob/main/APT_Combined.svg)
 
-No we have list of TTPs for which we need to create detection usecases. There are plenty of resources which will help building the usecase repositiory. Listing few sites for reference,
+No we have list of TTPs for which we need to create detection usecases.
+
+There are plenty of resources which will help building the usecase repositiory. Listing few sites for reference,
 
 - [Redcanary](https://redcanary.com/threat-detection-report/threats/)
 - [Sigma](https://github.com/SigmaHQ/sigma/tree/master/rules)
 
-### Age:II.M3 - Risk Remediation Analysis
+### Age:II.M3 - Risk Remediation Analysis**
 
-During this stage we will analyze the list of security controls which will be useful in defending against the adversary TTPs that we care about. Upon research, I found MITRE Engenuity [security-stack-mapping](https://github.com/center-for-threat-informed-defense/security-stack-mappings) for Azure and AWS. However, this is still a research topic for me wherein I looking for something more similar to Engenuity project for on-premise IT environment. If you know any references, kindly share your inputs through my email ID listed at the end of the page.
+During this stage we will analyze the list of security controls which will be helpful in defending against the adversary TTPs(in our case APT29 and APT30). Upon research, I found MITRE Engenuity [security-stack-mapping](https://github.com/center-for-threat-informed-defense/security-stack-mappings) for Azure and AWS. However, this is still a research topic for me wherein I am looking for something more similar to Engenuity project for on-premise IT environment. If you know any references, kindly share your inputs through [email](kaviarasan1195@gmail.com)
 
 ## Age III
 
