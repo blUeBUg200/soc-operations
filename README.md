@@ -1,6 +1,6 @@
 # Security Operation Centre Functional Model (SFM)
 
-SOC Functional Model (SFM) helps organizations to plan & prepare setting up a new SOC or to assess your exisitng SOC capabilities and identify the areas to focus.
+SOC Functional Model (SFM) helps organizations to plan & prepare setting up a new SOC or to assess your existing SOC capabilities and identify the areas to focus.
 
 Requesting the audience to understand below topics before jumping into the described process for better understanding,
 
@@ -10,7 +10,7 @@ Requesting the audience to understand below topics before jumping into the descr
 
 # The SFM Model
 
-SFM consists of 5 stages to build a new SOC and 4 stages to assess your exisiting SOC.
+SFM consists of 5 stages to build a new SOC and 4 stages to assess your existing SOC.
 
 
 <img width="914" alt="SFM Stages" src="https://user-images.githubusercontent.com/86832373/175633961-917f4da8-5f33-431e-833c-a76ebf31a1de.png">
@@ -93,18 +93,18 @@ From the previous stage (Age:II.M1) output we have compiled a TTP map for the ad
 - APT 29 [Matrix](https://github.com/blUeBUg200/soc-operations/blob/main/APT29.svg)
 - APT 30 [Matrix](https://github.com/blUeBUg200/soc-operations/blob/main/APT30.svg)
 
-The combination of TTP by both threat groups is compiled with the help of MITRE Navigator and the output will look something like [this](https://github.com/blUeBUg200/soc-operations/blob/main/APT_Combined.svg). Now we have list of TTPs for which we need to create detection use cases. There are plenty of resources which will help building the usecase repository. Listing few sites for reference,
+The combination of TTP by both threat groups is compiled with the help of MITRE Navigator and the output will look something like [this](https://github.com/blUeBUg200/soc-operations/blob/main/APT_Combined.svg). Now we have list of TTPs for which we need to create detection use cases. There are plenty of resources which will help building the use case repository. Listing few sites for reference,
 
-- [Redcanary](https://redcanary.com/threat-detection-report/threats/)
+- [Red Canary](https://redcanary.com/threat-detection-report/threats/)
 - [Sigma](https://github.com/SigmaHQ/sigma/tree/master/rules)
 
 > **_NOTE:_** IOC based intelligence to detect our "Threat Book" should be collected with the help of Threat Intelligence Platform such as MISP.
 
 ### Age:II.M3 - Risk Remediation Analysis
 
-During this stage we will analyze the list of security controls which will be helpful in defending against the adversary TTPs(in our case APT29 and APT30). This is a hands-on excercise to understand the detection, deny, degarde and deceive capabilities of the security tools and map them to MITRE matrix against our "Threat Book" TTPs.
+During this stage we will analyze the list of security controls which will be helpful in defending against the adversary TTPs(in our case APT29 and APT30). This is a hands-off exercise to understand the detection, deny, degrade and deceive capabilities of the security tools and map them to MITRE matrix against our "Threat Book" TTPs.
 
-> **_Research Topic:_** Upon research, I found MITRE Engenuity [security-stack-mapping](https://github.com/center-for-threat-informed-defense/security-stack-mappings) for Azure and AWS.This is still a research topic for me wherein I am looking for something more similar to Engenuity project for on-premise IT environment. If you know any references or exisiting FOSS projects which has this module inbuilt, kindly shoot an email to kaviarasan1195@gmail.com with the references attached.
+> **_Research Topic:_** Upon research, I found MITRE Engenuity [security-stack-mapping](https://github.com/center-for-threat-informed-defense/security-stack-mappings) for Azure and AWS.This is still a research topic for me wherein I am looking for something more similar to Engenuity project for on-premise IT environment. If you know any references or existing FOSS projects which has this module inbuilt, kindly shoot an email to kaviarasan1195@gmail.com with the references attached.
 
 > Topic Reference(s): [Risk Remediation Analysis](https://www.mitre.org/publications/systems-engineering-guide/enterprise-engineering/systems-engineering-for-mission-assurance/cyber-risk-remediation-analysis); [SOC Assessment](https://mad-certified.mitre-engenuity.org/group/283477) 
 
