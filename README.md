@@ -121,7 +121,7 @@ Create a MITRE Att&ck layer combining all the three and have a clear understandi
 - Techniques we can degrade and deceive
 - Techniques we can deny
 
-Based on the above we might endup with few TTPs remained untouched by all categories (deny, detect, deceive or degarde). A detailed research should be conducted against the list and threat-informed decisions need to be made (either enable logging or purchase of new security controls)
+Based on the above we might end up with few TTPs remained untouched by all categories (deny, detect, deceive or degrade). A detailed research should be conducted against the list and threat-informed decisions need to be made (either enable logging or purchase of new security controls)
 
 > Topic Reference(s): [MITRE Navigator](https://mitre-attack.github.io/attack-navigator/)
 
@@ -141,7 +141,7 @@ The process of threat hunting is briefed in one of writings earlier. Follow this
 <img width="914" alt="Age IV" src="https://user-images.githubusercontent.com/86832373/175775420-576c37af-581a-498f-bdc6-29657ed21950.png">
 
 ### Age:IV.M3 - Threat Emulation
-Threat Emulation will help organization to understand their capability to detect when an threat profiled adversary in conducting their operation against the environment. The mimicked Techniques need to be emulated and the security usecase alerting efficiency need to be validated post emulation activity.
+Threat Emulation will help organization to understand their capability to detect when an threat profiled adversary in conducting their operation against the environment. The mimicked Techniques need to be emulated and the security use case alerting efficiency need to be validated post emulation activity.
 > Topic Reference(s): 
 > [Threat Emulation](https://mad-certified.mitre-engenuity.org/group/359563); [Caldera](https://github.com/mitre/caldera)
 
@@ -152,7 +152,7 @@ Below picture shows the repeat loop of the stages which will be iterated over a 
 
 <img width="1085" alt="Iteration Model" src="https://user-images.githubusercontent.com/86832373/175778782-0021521f-9224-4a80-b75f-77cce7f68b1d.png">
 
-- Repeat Q : Operates when your emulation excercise output shows proven detection gaps which need to be fixed.
+- Repeat Q : Operates when your emulation exercise output shows proven detection gaps which need to be fixed.
 - Repeat W : Operates when you business mission changes, priority changes and the environment expands.
 
 SFM model was designed based on my understanding of SOC and the requirements it should full-fill to combat cyber threats. Feel free to reach me through email (kaviarasan1195@gmail.com) for queries and feedback.
