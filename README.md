@@ -1,8 +1,8 @@
 # Security Operation Centre Functional Model (SFM)
 
-SOC Functional Model (SFM) helps organizations to plan & prepare setting up an new SOC or to asses your exisitng SOC capabilities and identify the areas to focus.
+SOC Functional Model (SFM) helps organizations to plan & prepare setting up a new SOC or to assess your exisitng SOC capabilities and identify the areas to focus.
 
-Requesting the audience to have basic understanding of below topics before jumping into the described process for better understanding,
+Requesting the audience to understand below topics before jumping into the described process for better understanding,
 
 [MITRE ATT&CK](https://attack.mitre.org/)  | [SOC Assessment](https://mad-certified.mitre-engenuity.org/group/283477)        | [MITRE Navigator](https://mitre-attack.github.io/attack-navigator/)           | [Threat Modeling](https://redcanary.com/blog/threat-modeling/)  
 
@@ -10,7 +10,7 @@ Requesting the audience to have basic understanding of below topics before jumpi
 
 # The SFM Model
 
-SFM consists of 5 stages to build a new SOC and 4 stages to asses your exisiting SOC.
+SFM consists of 5 stages to build a new SOC and 4 stages to assess your exisiting SOC.
 
 
 <img width="914" alt="SFM Stages" src="https://user-images.githubusercontent.com/86832373/175633961-917f4da8-5f33-431e-833c-a76ebf31a1de.png">
@@ -29,7 +29,7 @@ SOC monitoring scope (such as only production, production + development, product
 Procurement of SOC tools with high Return of Investment (such as Security Information & Event Management, Endpoint Detection & Response, Network Detection  & Response)
 
 ### Infancy.M3 - Mode of Operation
-Mode of SOC operation to be decided such as In-House or Managed Security Service Provider(MssP)
+Mode of SOC operation to be decided such as In-House or Managed Security Service Provider (MssP)
 
 ## Age I
 This stage is about understanding the environment, business and assets which are of high value target for an attacker.
@@ -46,7 +46,7 @@ This stage is about understanding the environment, business and assets which are
 > Topic Reference(s): 
 > [MITRE CJA](https://www.mitre.org/publications/systems-engineering-guide/enterprise-engineering/systems-engineering-for-mission-assurance/crown-jewels-analysis)
 
-> **_Research Topic:_** Planning to build a asset dependency graph with the help of [Neo4j](https://neo4j.com/). If you know any references or exisiting FOSS projects which has this module inbuilt, kindly shoot an email to kaviarasan1195@gmail.com with the references attached.
+> **_Research Topic:_** Planning to build a asset dependency graph with the help of [Neo4j](https://neo4j.com/). If you know any references or existing FOSS projects which has this module inbuilt, kindly shoot an email to kaviarasan1195@gmail.com with the references attached.
 
 ### Age:I.M2 - Log Quality Analysis
 Integrate the assets with centralized management solution such as Security Information & Event Management(SIEM). Post integration, the logs should be subjected to below checks to ensure it adds value to our security monitoring,
@@ -60,7 +60,7 @@ Integrate the assets with centralized management solution such as Security Infor
 > Topic Reference(s):  [Log Quality Check](https://github.com/blUeBUg200/bluenightingale#pick-a-mitre-data-source)
 
 ### Age:I.M3 - Primary Analytics
-In this stage we will build our first set of usecases to detect anomalies around our crown jewel assets. Below are the few categories of usecases (feel free to add more based on your environment)
+In this stage we will build our first set of use cases to detect anomalies around our crown jewel assets. Below are the few categories of use cases (feel free to add more based on your environment)
 
 - Internet to Intranet (and vice-versa) connection on suspicious ports such as 445, 3389, 22, etc.,
 - VPN connections from non-business countries
@@ -71,7 +71,7 @@ In this stage we will build our first set of usecases to detect anomalies around
 > **_NOTE:_** Age:I.M3 might produce high False Positive alerts if we haven't understood the environment better (both N-->S and E-->W traffic behavior to be gathered and excluded as part of known behaviors)
 
 ## Age II
-This stage is more of an intelligence driven approach to detect, alert and degrade attackers actions against an environment.
+This stage is more of an intelligence driven approach to detect, alert, and degrade attackers’ actions against an environment.
 
 <img width="914" alt="Age II" src="https://user-images.githubusercontent.com/86832373/175767639-97a5d5e5-24fb-49ec-8f85-52265bf2b576.png">
 
@@ -93,7 +93,7 @@ From the previous stage (Age:II.M1) output we have compiled a TTP map for the ad
 - APT 29 [Matrix](https://github.com/blUeBUg200/soc-operations/blob/main/APT29.svg)
 - APT 30 [Matrix](https://github.com/blUeBUg200/soc-operations/blob/main/APT30.svg)
 
-The combination of TTP by both threat groups is compiled with the help of MITRE Navigator and the output will look something like [this](https://github.com/blUeBUg200/soc-operations/blob/main/APT_Combined.svg). Now we have list of TTPs for which we need to create detection usecases.There are plenty of resources which will help building the usecase repositiory. Listing few sites for reference,
+The combination of TTP by both threat groups is compiled with the help of MITRE Navigator and the output will look something like [this](https://github.com/blUeBUg200/soc-operations/blob/main/APT_Combined.svg). Now we have list of TTPs for which we need to create detection use cases. There are plenty of resources which will help building the usecase repository. Listing few sites for reference,
 
 - [Redcanary](https://redcanary.com/threat-detection-report/threats/)
 - [Sigma](https://github.com/SigmaHQ/sigma/tree/master/rules)
