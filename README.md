@@ -156,3 +156,5 @@ Below picture shows the repeat loop of the stages which will be iterated over a 
 - Repeat W : Operates when you business mission changes, priority changes and the environment expands.
 
 SFM model was designed based on my understanding of SOC and the requirements it should full-fill to combat cyber threats. Feel free to reach me through email (kaviarasan1195@gmail.com) for queries and feedback.
+
+Security Operation Centre Functional Model (SFM) © 2022 by Kaviarasan Asokan is licensed under Attribution 4.0 International. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
